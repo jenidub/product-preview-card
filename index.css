@@ -1,23 +1,36 @@
 body {
-  background-color: hsl(30, 38%, 92%);
+  background-color: #0E0E0E;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ad-container {
+  background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
   flex-direction: row;
-  height: 800px;
-  width: 700px;
+  align-items: center;
+  height: 700px;
+  width: 1000px;
+  padding: 20px;
 }
 
-img {
-  height: 400px;
+#product-photo {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   width: 300px;
+  height: 480px;
 }
 
 #ad-text {
   background-color: white;
-  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 440px;
+  width: 300px;
+  padding: 20px 30px;
 }
 
 #ad-text-subtitle {
@@ -31,11 +44,25 @@ img {
   font-family: 'Fraunces', serif;
   font-size: 35px;
   font-weight: 700;
+  padding-right: 10px;
+  line-height: 1em;
+  margin: 20px 0px;
+}
+
+#ad-text-item-description,
+#ad-price-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 #ad-text-item-description {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  line-height: 1.5rem;
+  padding-right: 30px;
+}
+
+#ad-price {
+  display: flex;
+  margin: 10px 0px;
 }
 
 #ad-price-current {
@@ -43,10 +70,34 @@ img {
   font-size: 45px;
   font-weight: 700;
   color: hsl(158, 36%, 37%);
+  margin: 0px 10px 10px 0px;
 }
 
 #ad-price-regular {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
   text-decoration: line-through;
+  margin: 20px 20px 15px 10px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+}
+
+button:hover {
+   background-color: #1A4031;
+}
+
+#cart-icon {
+  width: 18px;
 }
