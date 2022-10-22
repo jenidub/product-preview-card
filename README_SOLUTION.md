@@ -4,13 +4,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshots](#screenshot)
-  - [Project Links](#links)
+  - [Screenshots](#screenshots)
+  - [Project Links](#project-links)
 - [My Process](#my-process)
-  - [Project Tech Stack](#built-with)
+  - [Project Tech Stack](#project-tech-stack)
   - [What I Learned](#what-i-learned)
-  - [Resources Used](#useful-resources)
-- [Author Info](#author)
+  - [Resources Used](#resources-used)
+- [Author Info](#author-info)
 
 ## Overview
 The goal of this project was to create a responsive design for a product preview card that works on desktops (width 1440px) and mobile devices (up to 415px - size of iPhone devices).
@@ -22,6 +22,7 @@ Users should be able to:
 ### Screenshots
 ![Desktop Screen View](./images/image-product-desktop.jpg)
 ![Mobile Screen View](./images/image-product-mobile.jpg)
+
 ### Project Links
 - [Solution URL](https://github.com/jenidub/product-preview-card)
 - [Live Site URL](https://jenidub.github.io/product-preview-card/)
