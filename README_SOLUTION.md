@@ -20,8 +20,8 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshots
-![Desktop Screen View](./images/image-product-desktop.jpg)
-![Mobile Screen View](./images/image-product-mobile.jpg)
+![Desktop Screen View](./images//screenshot-desktop-view.png)
+![Mobile Screen View](./images/screenshot-mobile-view.png)
 
 ### Project Links
 - [Solution URL](https://github.com/jenidub/product-preview-card)
@@ -42,7 +42,7 @@ The project gave me a lot of practice using **Flexbox** because it required mult
 For example, here is the CSS rule for the **#ad-container**:
 
 *Desktop View*
-`#ad-container {
+#ad-container {
   background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
@@ -51,10 +51,10 @@ For example, here is the CSS rule for the **#ad-container**:
   height: 700px;
   width: 1000px;
   padding: 20px;
-}`
+}
 
 *Mobile View*
-`@media screen and (max-width: 415px){...
+@media screen and (max-width: 415px){...
   #ad-container {
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ For example, here is the CSS rule for the **#ad-container**:
     align-items: center;
     padding: 0px;
     height: 80%;
-}`
+}
 
 ### Resources Used
 - Website - [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
