@@ -40,8 +40,8 @@ I chose to begin by designing the mobile version of the site since it is the mos
 The project gave me a lot of practice using **Flexbox** because it required multiple flexbox arrangements within each view and to make the transition between mobile and desktop views. I also learned to not **repeat property-value pairs** if they are the same in different views. 
 
 For example, here is the CSS rule for the **#ad-container**:
-
 *Desktop View*
+```
 #ad-container {
   background-color: hsl(30, 38%, 92%);
   display: flex;
@@ -52,8 +52,9 @@ For example, here is the CSS rule for the **#ad-container**:
   width: 1000px;
   padding: 20px;
 }
-
+```
 *Mobile View*
+```
 @media screen and (max-width: 415px){...
   #ad-container {
     display: flex;
@@ -62,8 +63,9 @@ For example, here is the CSS rule for the **#ad-container**:
     align-items: center;
     padding: 0px;
     height: 80%;
+  }
 }
-
+```
 ### Resources Used
 - Website - [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - Website - [W3Schools HTML Reference Guide](https://www.w3schools.com/html/)
